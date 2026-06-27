@@ -21,6 +21,7 @@ dependencies = [
     "langchain-groq>=1.1.2",
     "langchain-huggingface>=1.2.2",
     "langchain-openai>=1.2.1",
+    "langchain-tavily>=0.2.18",
     "langchain-text-splitters>=1.1.2",
     "langserve>=0.3.3",
     "mysql-connector-python>=9.7.0",

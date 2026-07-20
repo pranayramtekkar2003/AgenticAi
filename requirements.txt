@@ -37,3 +37,4 @@ sse_starlette
 langchain-google-genai
 langchain-tavily
 langgraph
+langgraph-cli[inmem]

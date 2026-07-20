@@ -23,6 +23,8 @@ dependencies = [
     "langchain-openai>=1.2.1",
     "langchain-tavily>=0.2.18",
     "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.1.10",
+    "langgraph-cli>=0.4.30",
     "langserve>=0.3.3",
     "mysql-connector-python>=9.7.0",
     "numexpr>=2.14.1",
@@ -40,4 +42,9 @@ dependencies = [
     "validators==0.28.1",
     "wikipedia>=1.4.0",
     "youtube-transcript-api>=1.2.4",
+]
+
+[tool.uv.workspace]
+members = [
+    "studio",
 ]

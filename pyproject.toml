@@ -29,6 +29,7 @@ dependencies = [
     "mysql-connector-python>=9.7.0",
     "numexpr>=2.14.1",
     "openai>=2.34.0",
+    "pageindex>=0.2.8.1",
     "pandas>=3.0.2",
     "pymupdf==1.23.26",
     "pypdf>=6.10.2",

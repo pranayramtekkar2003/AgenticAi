@@ -45,6 +45,7 @@ dependencies = [
     { name = "mysql-connector-python" },
     { name = "numexpr" },
     { name = "openai" },
+    { name = "pageindex" },
     { name = "pandas" },
     { name = "pymupdf" },
     { name = "pypdf" },
@@ -86,6 +87,7 @@ requires-dist = [
     { name = "mysql-connector-python", specifier = ">=9.7.0" },
     { name = "numexpr", specifier = ">=2.14.1" },
     { name = "openai", specifier = ">=2.34.0" },
+    { name = "pageindex", specifier = ">=0.2.8.1" },
     { name = "pandas", specifier = ">=3.0.2" },
     { name = "pymupdf", specifier = "==1.23.26" },
     { name = "pypdf", specifier = ">=6.10.2" },
@@ -3480,6 +3482,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d7/f1/e7a6dd94a8d4a5626c03e4e99c87f241ba9e350cd9e6d75123f992427270/packaging-26.2.tar.gz", hash = "sha256:ff452ff5a3e828ce110190feff1178bb1f2ea2281fa2075aadb987c2fb221661", size = 228134, upload-time = "2026-04-24T20:15:23.917Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/df/b2/87e62e8c3e2f4b32e5fe99e0b86d576da1312593b39f47d8ceef365e95ed/packaging-26.2-py3-none-any.whl", hash = "sha256:5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e", size = 100195, upload-time = "2026-04-24T20:15:22.081Z" },
+]
+
+[[package]]
+name = "pageindex"
+version = "0.2.8.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "openai" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0e/85/18a7e4215de087f4c3b6e185697ee70bd4083c1e13c033d5240c67a8fae2/pageindex-0.2.8.1.tar.gz", hash = "sha256:c3580b11c5b7c1a6e476c6f6cd17f7e696660d9cc493ef43e767e2cca68c2a52", size = 5270, upload-time = "2026-10-10T10:45:36.007Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2d/6e/47ec74a22cee775091e77e7bc0702df5df9d60d7c446374d2901ac7a6f69/pageindex-0.2.8.1-py3-none-any.whl", hash = "sha256:69a64b9467faacff27eefa3ddc72dafb8824c59dd18ab95abe5437a3cfbd3c67", size = 6330, upload-time = "2026-10-10T10:45:34.588Z" },
 ]
 
 [[package]]
